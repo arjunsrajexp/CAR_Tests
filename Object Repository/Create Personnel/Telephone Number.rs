@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Telephone Number</name>
+   <tag></tag>
+   <elementGuidId>eb3b87d1-df2c-486d-a1df-6bbdd94f5437</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[7]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name='telephone_number']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>639c0358-17c4-4c34-8dce-249806bf1d79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-67n0dq</value>
+      <webElementGuid>dca68287-1269-4ba2-b9e6-a889ef999f12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>​+252</value>
+      <webElementGuid>eeda5150-a2ab-4f50-ad11-e18ef05e315f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app-l-page-wrap&quot;]/div[@class=&quot;app-l-page-wrap&quot;]/div[@class=&quot;app-l-content-wrap&quot;]/div[@class=&quot;app-l-create-personnel-content&quot;]/div[@class=&quot;app-l-create-personnel__right&quot;]/div[@class=&quot;app-l-create-personnel__form-blk&quot;]/div[@class=&quot;app-c-grid-layout app-c-grid-layout--four-column&quot;]/div[@class=&quot;app-c-grid-layout__item&quot;]/div[@class=&quot;form-group undefined&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root css-i44wyl&quot;]/div[@class=&quot;MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-67n0dq&quot;]</value>
+      <webElementGuid>cb7be765-f487-4cba-b968-cb823e64667a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[7]/div/div/div</value>
+      <webElementGuid>44a2cf0a-b8ce-4e1c-9acb-bd347f39d7b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Telephone Number'])[1]/following::div[1]</value>
+      <webElementGuid>bccede7c-9d53-4759-9348-96f74ee5f3af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Biometric Registration Number'])[1]/following::div[5]</value>
+      <webElementGuid>1faded8b-b9db-45b0-a0a1-ea2470d67500</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rank'])[1]/preceding::div[2]</value>
+      <webElementGuid>83ddb69d-a505-4894-82ca-346d11ba93ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div</value>
+      <webElementGuid>e19f2b9d-b4b8-4d44-a8c0-3e25acbc9ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '​+252' or . = '​+252')]</value>
+      <webElementGuid>313ebb86-d3c8-4d1f-a5fe-1b6143128c88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

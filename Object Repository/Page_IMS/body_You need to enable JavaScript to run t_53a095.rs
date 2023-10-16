@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>body_You need to enable JavaScript to run t_53a095</name>
+   <tag></tag>
+   <elementGuidId>6e8e5178-b39b-40df-97e8-d141a7b11121</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'MuiSelect-select MuiSelect-filled')])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>body</value>
+      <webElementGuid>4c175082-328e-42d3-acdf-fc7d8501f6a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You need to enable JavaScript to run this app.HamburgerHomeHomePersonnelPersonnel1916UnitsUnits50FacilitiesFacilities53WeaponsWeapons5041AmmunitionAmmunition8ImportsImports1TransfersTransfersSpot ChecksSpot ChecksReportsReportsAdminAdminChevron downUsers9Roles5superadmin testuserLocatorSidebar.LanguageSelectionEnglishSomaliPersonal DetailsPersonal DetailsSign OutSign OutArrow leftCreate AmmunitionChevron leftHomeChevron leftAmmunitionChevron leftCreate AmmunitionAmmunition DetailsQuality AssuranceBasic DetailsAmmunition Status​Stockpile​Ammunition Type​Ammunition Calibre​Container​QuantityOther Unique Identifying MarkAmmunition DescriptionAmTag Applied​Import IDEnterShipment IDEnterUpload Imagesupload UPTO six imagesPlusUploadOne or Multiple ImagesOther DetailsIs this Ammunition captured?​NotesAmmunition Notes200/200 charactersRecord UpdatedUpdated DateUpdated by RankUpdated by Security Force IDUpdated by NameCancelCreate Ammunitionid(&quot;menu-type_id&quot;)/div[@class=&quot;MuiBackdrop-root MuiBackdrop-invisible css-esi9ax&quot;]Cannon RoundsHand GrenadesMortar RoundsOtherRPG RoundsRecoilless RoundsSmall Arms Ammunition</value>
+      <webElementGuid>8b8a3630-ca96-44ee-80c4-84165acce0c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]</value>
+      <webElementGuid>3ba04d69-3a1d-40a2-99f0-57af23ea413d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body</value>
+      <webElementGuid>c0f1e9de-a6b7-4f8c-abab-0a0efd8d3b29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//body[(text() = 'You need to enable JavaScript to run this app.HamburgerHomeHomePersonnelPersonnel1916UnitsUnits50FacilitiesFacilities53WeaponsWeapons5041AmmunitionAmmunition8ImportsImports1TransfersTransfersSpot ChecksSpot ChecksReportsReportsAdminAdminChevron downUsers9Roles5superadmin testuserLocatorSidebar.LanguageSelectionEnglishSomaliPersonal DetailsPersonal DetailsSign OutSign OutArrow leftCreate AmmunitionChevron leftHomeChevron leftAmmunitionChevron leftCreate AmmunitionAmmunition DetailsQuality AssuranceBasic DetailsAmmunition Status​Stockpile​Ammunition Type​Ammunition Calibre​Container​QuantityOther Unique Identifying MarkAmmunition DescriptionAmTag Applied​Import IDEnterShipment IDEnterUpload Imagesupload UPTO six imagesPlusUploadOne or Multiple ImagesOther DetailsIs this Ammunition captured?​NotesAmmunition Notes200/200 charactersRecord UpdatedUpdated DateUpdated by RankUpdated by Security Force IDUpdated by NameCancelCreate Ammunitionid(&quot;menu-type_id&quot;)/div[@class=&quot;MuiBackdrop-root MuiBackdrop-invisible css-esi9ax&quot;]Cannon RoundsHand GrenadesMortar RoundsOtherRPG RoundsRecoilless RoundsSmall Arms Ammunition' or . = 'You need to enable JavaScript to run this app.HamburgerHomeHomePersonnelPersonnel1916UnitsUnits50FacilitiesFacilities53WeaponsWeapons5041AmmunitionAmmunition8ImportsImports1TransfersTransfersSpot ChecksSpot ChecksReportsReportsAdminAdminChevron downUsers9Roles5superadmin testuserLocatorSidebar.LanguageSelectionEnglishSomaliPersonal DetailsPersonal DetailsSign OutSign OutArrow leftCreate AmmunitionChevron leftHomeChevron leftAmmunitionChevron leftCreate AmmunitionAmmunition DetailsQuality AssuranceBasic DetailsAmmunition Status​Stockpile​Ammunition Type​Ammunition Calibre​Container​QuantityOther Unique Identifying MarkAmmunition DescriptionAmTag Applied​Import IDEnterShipment IDEnterUpload Imagesupload UPTO six imagesPlusUploadOne or Multiple ImagesOther DetailsIs this Ammunition captured?​NotesAmmunition Notes200/200 charactersRecord UpdatedUpdated DateUpdated by RankUpdated by Security Force IDUpdated by NameCancelCreate Ammunitionid(&quot;menu-type_id&quot;)/div[@class=&quot;MuiBackdrop-root MuiBackdrop-invisible css-esi9ax&quot;]Cannon RoundsHand GrenadesMortar RoundsOtherRPG RoundsRecoilless RoundsSmall Arms Ammunition')]</value>
+      <webElementGuid>6dd6497c-264f-42e3-b0c6-1d45a73bafbf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Personnel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>262e9c21-9d65-4ba8-95a6-183a20d75e73</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b66a272-6dca-4503-90e7-9e73b2d1e6e2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b66a272-6dca-4503-90e7-9e73b2d1e6e2</id>
+      <masked>false</masked>
+      <name>Timestamp</name>
+   </variable>
+</TestCaseEntity>

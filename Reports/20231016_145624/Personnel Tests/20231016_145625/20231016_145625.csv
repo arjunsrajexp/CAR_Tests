@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Personnel Tests,Chrome 118.0.0.0,,,2023-10-16 14:56:28,2023-10-16 14:59:38,3m - 10.757s,FAILED
+,,,,,,,
+Test Cases/Login and Logout/Login,Chrome 118.0.0.0,,,2023-10-16 14:56:28,2023-10-16 14:57:45,1m - 17.162s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-16 14:56:28,2023-10-16 14:56:31,2.373s,PASSED
+"navigateToUrl(""https://app.qa.ims.experionglobal.dev/login"")",Chrome 118.0.0.0,,,2023-10-16 14:56:31,2023-10-16 14:56:31,0.706s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Login with Google Button""))",Chrome 118.0.0.0,,,2023-10-16 14:56:31,2023-10-16 14:56:32,0.578s,PASSED
+"setText(findTestObject(""Object Repository/Google Authentication Page/Username Box""), ""superadmintestusercar@experionglobal.dev"")",Chrome 118.0.0.0,,,2023-10-16 14:56:32,2023-10-16 14:56:37,5.580s,PASSED
+"click(findTestObject(""Google Authentication Page/Next Button""))",Chrome 118.0.0.0,,,2023-10-16 14:56:37,2023-10-16 14:56:38,0.492s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Google Authentication Page/Password Box""), ""7326p5kcqg39Yf9y5Lk4nA=="")",Chrome 118.0.0.0,,,2023-10-16 14:56:38,2023-10-16 14:56:41,2.739s,PASSED
+"click(findTestObject(""Object Repository/Google Authentication Page/Next Button""))",Chrome 118.0.0.0,,,2023-10-16 14:56:41,2023-10-16 14:56:41,0.515s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/First Navigation Item""), ""Home"")",Chrome 118.0.0.0,,,2023-10-16 14:56:41,2023-10-16 14:57:15,33.784s,PASSED
+"if (verifyElementText(findTestObject(""Object Repository/Home Page/First Navigation Item""), ""Home""))",Chrome 118.0.0.0,,,2023-10-16 14:57:15,2023-10-16 14:57:45,30.108s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-16 14:57:45,2023-10-16 14:57:45,0.157s,PASSED
+,,,,,,,
+Test Cases/Personnel/Verify Mandatory Fields - Personnel,Chrome 118.0.0.0,,,2023-10-16 14:57:45,2023-10-16 14:58:39,54.061s,PASSED
+if (!(isLoggedIn)),Chrome 118.0.0.0,,,2023-10-16 14:57:45,2023-10-16 14:57:45,0.000s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Personnel Navigation Link""))",Chrome 118.0.0.0,,,2023-10-16 14:57:45,2023-10-16 14:58:16,30.180s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Create Personnel (Start) Button""))",Chrome 118.0.0.0,,,2023-10-16 14:58:16,2023-10-16 14:58:31,15.200s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Create Personnel (Finish) Button""))",Chrome 118.0.0.0,,,2023-10-16 14:58:31,2023-10-16 14:58:33,2.370s,PASSED
+"mouseOver(findTestObject(""Object Repository/Create Personnel/Security Force Dropdown""))",Chrome 118.0.0.0,,,2023-10-16 14:58:33,2023-10-16 14:58:34,0.698s,PASSED
+"verifyTextPresent(""Security force is required."", false)",Chrome 118.0.0.0,,,2023-10-16 14:58:34,2023-10-16 14:58:34,0.364s,PASSED
+"mouseOver(findTestObject(""Create Personnel/Division""))",Chrome 118.0.0.0,,,2023-10-16 14:58:34,2023-10-16 14:58:35,0.468s,PASSED
+"verifyTextPresent(""Sector/Division is required."", false)",Chrome 118.0.0.0,,,2023-10-16 14:58:35,2023-10-16 14:58:35,0.331s,PASSED
+"mouseOver(findTestObject(""Create Personnel/Unit""))",Chrome 118.0.0.0,,,2023-10-16 14:58:35,2023-10-16 14:58:35,0.471s,PASSED
+"verifyTextPresent(""Unit is required."", false)",Chrome 118.0.0.0,,,2023-10-16 14:58:35,2023-10-16 14:58:36,0.327s,PASSED
+"mouseOver(findTestObject(""Create Personnel/First Name Text Box""))",Chrome 118.0.0.0,,,2023-10-16 14:58:36,2023-10-16 14:58:36,0.457s,PASSED
+"verifyTextPresent(""First name is required."", false)",Chrome 118.0.0.0,,,2023-10-16 14:58:36,2023-10-16 14:58:37,0.360s,PASSED
+"mouseOver(findTestObject(""Create Personnel/Last Name Text Box""))",Chrome 118.0.0.0,,,2023-10-16 14:58:37,2023-10-16 14:58:37,0.456s,PASSED
+"verifyTextPresent(""Last name is required."", false)",Chrome 118.0.0.0,,,2023-10-16 14:58:37,2023-10-16 14:58:37,0.353s,PASSED
+"mouseOver(findTestObject(""Create Personnel/Telephone Number""))",Chrome 118.0.0.0,,,2023-10-16 14:58:37,2023-10-16 14:58:38,0.462s,PASSED
+"verifyTextPresent(""Telephone is required."", false)",Chrome 118.0.0.0,,,2023-10-16 14:58:38,2023-10-16 14:58:38,0.322s,PASSED
+"mouseOver(findTestObject(""Create Personnel/Rank""))",Chrome 118.0.0.0,,,2023-10-16 14:58:38,2023-10-16 14:58:39,0.477s,PASSED
+"verifyTextPresent(""Rank is required."", false)",Chrome 118.0.0.0,,,2023-10-16 14:58:39,2023-10-16 14:58:39,0.328s,PASSED
+"verifyElementPresent(findTestObject(""Create Personnel/Profile Picture Required message""), 30)",Chrome 118.0.0.0,,,2023-10-16 14:58:39,2023-10-16 14:58:39,0.318s,PASSED
+if (!(RuninSuite)),Chrome 118.0.0.0,,,2023-10-16 14:58:39,2023-10-16 14:58:39,0.000s,PASSED
+,,,,,,,
+Test Cases/Personnel/Create Personnel,Chrome 118.0.0.0,,,2023-10-16 14:58:39,2023-10-16 14:59:03,24.028s,PASSED
+if (!(isLoggedIn)),Chrome 118.0.0.0,,,2023-10-16 14:58:40,2023-10-16 14:58:40,0.001s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Personnel Navigation Link""))",Chrome 118.0.0.0,,,2023-10-16 14:58:40,2023-10-16 14:58:40,0.476s,PASSED
+"Timestamp = DateTimeUtility.getCurrentDateTime(""IST"", """")",Chrome 118.0.0.0,,,2023-10-16 14:58:40,2023-10-16 14:58:40,0.059s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Create Personnel (Start) Button""))",Chrome 118.0.0.0,,,2023-10-16 14:58:40,2023-10-16 14:58:42,1.399s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Security Force Dropdown""))",Chrome 118.0.0.0,,,2023-10-16 14:58:42,2023-10-16 14:58:42,0.503s,PASSED
+"click(findTestObject(""Object Repository/Common/SPF dropdown option""))",Chrome 118.0.0.0,,,2023-10-16 14:58:42,2023-10-16 14:58:43,0.511s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Division""))",Chrome 118.0.0.0,,,2023-10-16 14:58:43,2023-10-16 14:58:43,0.691s,PASSED
+"click(findTestObject(""Create Personnel/Division 1st Option""))",Chrome 118.0.0.0,,,2023-10-16 14:58:43,2023-10-16 14:58:44,0.515s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Unit""))",Chrome 118.0.0.0,,,2023-10-16 14:58:44,2023-10-16 14:58:45,1.070s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Unit dropdown 1st value""))",Chrome 118.0.0.0,,,2023-10-16 14:58:45,2023-10-16 14:58:45,0.517s,PASSED
+"setText(findTestObject(""Object Repository/Create Personnel/First Name Text Box""), ""Test"")",Chrome 118.0.0.0,,,2023-10-16 14:58:45,2023-10-16 14:58:47,1.236s,PASSED
+"setText(findTestObject(""Object Repository/Create Personnel/Middle Name Text Box""), ""Automation"")",Chrome 118.0.0.0,,,2023-10-16 14:58:47,2023-10-16 14:58:48,0.889s,PASSED
+"setText(findTestObject(""Object Repository/Create Personnel/Last Name Text Box""), Timestamp)",Chrome 118.0.0.0,,,2023-10-16 14:58:48,2023-10-16 14:58:49,1.037s,PASSED
+"setText(findTestObject(""Create Personnel/Forces ID Number Text Box""), ""FID001"")",Chrome 118.0.0.0,,,2023-10-16 14:58:49,2023-10-16 14:58:49,0.769s,PASSED
+"setText(findTestObject(""Create Personnel/Forces AP Number Text Box""), ""FAP001"")",Chrome 118.0.0.0,,,2023-10-16 14:58:49,2023-10-16 14:58:50,0.791s,PASSED
+"setText(findTestObject(""Create Personnel/Biometric Reg No Text Box""), ""BMI001"")",Chrome 118.0.0.0,,,2023-10-16 14:58:50,2023-10-16 14:58:51,0.827s,PASSED
+"setText(findTestObject(""Object Repository/Create Personnel/Telephone Number Text Box""), ""456 127 876"")",Chrome 118.0.0.0,,,2023-10-16 14:58:51,2023-10-16 14:58:52,0.852s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Rank""))",Chrome 118.0.0.0,,,2023-10-16 14:58:52,2023-10-16 14:58:52,0.395s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/li_KL""))",Chrome 118.0.0.0,,,2023-10-16 14:58:52,2023-10-16 14:58:53,0.505s,PASSED
+"uploadFiles.uploadFile(findTestObject(""Create Personnel/Image_Upload""), ""C:\Users\arjun.s\Desktop\Test Images\AK-47, 4839351-5.jpg"")",Chrome 118.0.0.0,,,2023-10-16 14:58:53,2023-10-16 14:58:56,3.269s,PASSED
+"setText(findTestObject(""Create Personnel/Responsible Person Name Box""), ""Test Guranator"")",Chrome 118.0.0.0,,,2023-10-16 14:58:56,2023-10-16 14:58:57,1.077s,PASSED
+"setText(findTestObject(""Create Personnel/Responsible Person Phone Box""), ""123 456 789"")",Chrome 118.0.0.0,,,2023-10-16 14:58:57,2023-10-16 14:58:58,0.929s,PASSED
+"setText(findTestObject(""Create Personnel/Notes Box""), ""Test Note"")",Chrome 118.0.0.0,,,2023-10-16 14:58:58,2023-10-16 14:58:59,0.778s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Create Personnel (Finish) Button""))",Chrome 118.0.0.0,,,2023-10-16 14:58:59,2023-10-16 14:58:59,0.497s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create Personnel/Personnel Creation Confirmation Message""), ""Personnel added successfully!"")",Chrome 118.0.0.0,,,2023-10-16 14:58:59,2023-10-16 14:59:02,2.209s,PASSED
+"click(findTestObject(""Create Personnel/Create Another Cancel Button""))",Chrome 118.0.0.0,,,2023-10-16 14:59:02,2023-10-16 14:59:02,0.521s,PASSED
+"verifyElementNotPresent(findTestObject(""Create Personnel/Something Went Wrong Toast""), 30)",Chrome 118.0.0.0,,,2023-10-16 14:59:02,2023-10-16 14:59:03,1.288s,PASSED
+if (!(RuninSuite)),Chrome 118.0.0.0,,,2023-10-16 14:59:03,2023-10-16 14:59:03,0.000s,PASSED
+,,,,,,,
+Test Cases/Personnel/View and Edit Personnel,Chrome 118.0.0.0,,,2023-10-16 14:59:03,2023-10-16 14:59:38,35.139s,FAILED
+if (!(isLoggedIn)),Chrome 118.0.0.0,,,2023-10-16 14:59:04,2023-10-16 14:59:04,0.000s,PASSED
+"click(findTestObject(""Object Repository/Create Personnel/Personnel Navigation Link""))",Chrome 118.0.0.0,,,2023-10-16 14:59:04,2023-10-16 14:59:04,0.426s,PASSED
+refresh(),Chrome 118.0.0.0,,,2023-10-16 14:59:04,2023-10-16 14:59:04,0.002s,NOT_RUN
+"PersonnelNameList = getText(findTestObject(""View and Edit Personnel/First Personnel Name - List""))",Chrome 118.0.0.0,,,2023-10-16 14:59:04,2023-10-16 14:59:05,0.445s,PASSED
+"click(findTestObject(""View and Edit Personnel/First Personnel view Button""))",Chrome 118.0.0.0,,,2023-10-16 14:59:05,2023-10-16 14:59:05,0.426s,PASSED
+"PersonnelNameView = getText(findTestObject(""View and Edit Personnel/Personnel Name - View""))",Chrome 118.0.0.0,,,2023-10-16 14:59:05,2023-10-16 14:59:07,1.429s,PASSED
+"verifyEqual(PersonnelNameList, PersonnelNameView, CONTINUE_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-16 14:59:07,2023-10-16 14:59:07,0.039s,FAILED
+"click(findTestObject(""Common/Edit Button""))",Chrome 118.0.0.0,,,2023-10-16 14:59:07,2023-10-16 14:59:07,0.365s,PASSED
+"click(findTestObject(""Create Personnel/Security Force Dropdown""))",Chrome 118.0.0.0,,,2023-10-16 14:59:07,2023-10-16 14:59:09,1.532s,PASSED
+"click(findTestObject(""Common/SNA dropdown option""))",Chrome 118.0.0.0,,,2023-10-16 14:59:09,2023-10-16 14:59:09,0.608s,PASSED
+"click(findTestObject(""Create Personnel/Division""))",Chrome 118.0.0.0,,,2023-10-16 14:59:09,2023-10-16 14:59:10,0.729s,PASSED
+"click(findTestObject(""Create Personnel/Division 1st Option""))",Chrome 118.0.0.0,,,2023-10-16 14:59:10,2023-10-16 14:59:10,0.530s,PASSED
+"click(findTestObject(""Create Personnel/Unit""))",Chrome 118.0.0.0,,,2023-10-16 14:59:10,2023-10-16 14:59:11,0.713s,PASSED
+"click(findTestObject(""Create Personnel/Unit dropdown 1st value""))",Chrome 118.0.0.0,,,2023-10-16 14:59:11,2023-10-16 14:59:12,0.478s,PASSED
+"sendKeys(findTestObject(""Create Personnel/First Name Text Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:12,2023-10-16 14:59:12,0.723s,PASSED
+"sendKeys(findTestObject(""Create Personnel/First Name Text Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:12,2023-10-16 14:59:13,0.382s,PASSED
+"setText(findTestObject(""Create Personnel/First Name Text Box""), ""Test 1"")",Chrome 118.0.0.0,,,2023-10-16 14:59:13,2023-10-16 14:59:13,0.737s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Middle Name Text Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:13,2023-10-16 14:59:14,0.359s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Middle Name Text Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:14,2023-10-16 14:59:14,0.357s,PASSED
+"setText(findTestObject(""Create Personnel/Middle Name Text Box""), ""Automation 1"")",Chrome 118.0.0.0,,,2023-10-16 14:59:14,2023-10-16 14:59:15,0.880s,PASSED
+"Timestamp = DateTimeUtility.getCurrentDateTime(""IST"", """")",Chrome 118.0.0.0,,,2023-10-16 14:59:15,2023-10-16 14:59:15,0.001s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Last Name Text Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:15,2023-10-16 14:59:15,0.414s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Last Name Text Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:15,2023-10-16 14:59:16,0.387s,PASSED
+"setText(findTestObject(""Create Personnel/Last Name Text Box""), Timestamp)",Chrome 118.0.0.0,,,2023-10-16 14:59:16,2023-10-16 14:59:17,1.013s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Forces ID Number Text Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:17,2023-10-16 14:59:17,0.372s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Forces ID Number Text Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:17,2023-10-16 14:59:18,0.402s,PASSED
+"setText(findTestObject(""Create Personnel/Forces ID Number Text Box""), ""FIDED001"")",Chrome 118.0.0.0,,,2023-10-16 14:59:18,2023-10-16 14:59:18,0.778s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Forces AP Number Text Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:18,2023-10-16 14:59:19,0.422s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Forces AP Number Text Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:19,2023-10-16 14:59:19,0.353s,PASSED
+"setText(findTestObject(""Create Personnel/Forces AP Number Text Box""), ""FAPED001"")",Chrome 118.0.0.0,,,2023-10-16 14:59:19,2023-10-16 14:59:20,0.845s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Biometric Reg No Text Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:20,2023-10-16 14:59:20,0.378s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Biometric Reg No Text Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:20,2023-10-16 14:59:21,0.403s,PASSED
+"click(findTestObject(""Create Personnel/Rank""))",Chrome 118.0.0.0,,,2023-10-16 14:59:21,2023-10-16 14:59:21,0.414s,PASSED
+"click(findTestObject(""Create Personnel/li_GDHE""))",Chrome 118.0.0.0,,,2023-10-16 14:59:21,2023-10-16 14:59:22,0.568s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Telephone Number""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:22,2023-10-16 14:59:23,0.847s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Telephone Number""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:23,2023-10-16 14:59:23,0.376s,PASSED
+"setText(findTestObject(""Create Personnel/Telephone Number""), ""123667117"")",Chrome 118.0.0.0,,,2023-10-16 14:59:23,2023-10-16 14:59:24,0.792s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Responsible Person Name Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:24,2023-10-16 14:59:24,0.358s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Responsible Person Name Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:24,2023-10-16 14:59:25,0.370s,PASSED
+"setText(findTestObject(""Create Personnel/Responsible Person Name Box""), ""Edited Gurantor"")",Chrome 118.0.0.0,,,2023-10-16 14:59:25,2023-10-16 14:59:25,0.912s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Responsible Person Phone Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:25,2023-10-16 14:59:26,0.373s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Responsible Person Phone Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:26,2023-10-16 14:59:26,0.381s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Notes Box""), Keys.chord(CONTROL, ""a""))",Chrome 118.0.0.0,,,2023-10-16 14:59:26,2023-10-16 14:59:27,0.405s,PASSED
+"sendKeys(findTestObject(""Create Personnel/Notes Box""), Keys.chord(DELETE))",Chrome 118.0.0.0,,,2023-10-16 14:59:27,2023-10-16 14:59:27,0.371s,PASSED
+"setText(findTestObject(""Create Personnel/Notes Box""), ""Test Note Edited"")",Chrome 118.0.0.0,,,2023-10-16 14:59:27,2023-10-16 14:59:28,0.964s,PASSED
+"uploadFiles.uploadFile(findTestObject(""Create Personnel/Image_Upload""), ""C:\Users\arjun.s\Desktop\Test Images\AK-47, 60008379-5.jpg"")",Chrome 118.0.0.0,,,2023-10-16 14:59:28,2023-10-16 14:59:31,2.559s,PASSED
+"click(findTestObject(""Common/Save Changes Button""))",Chrome 118.0.0.0,,,2023-10-16 14:59:31,2023-10-16 14:59:31,0.602s,PASSED
+"verifyElementPresent(findTestObject(""View and Edit Personnel/Confirmation Pop up""), 30)",Chrome 118.0.0.0,,,2023-10-16 14:59:31,2023-10-16 14:59:33,1.550s,PASSED
+"click(findTestObject(""Common/Yes Button""))",Chrome 118.0.0.0,,,2023-10-16 14:59:33,2023-10-16 14:59:33,0.394s,PASSED
+"verifyTextPresent(""Personnel updated successfully"", false)",Chrome 118.0.0.0,,,2023-10-16 14:59:33,2023-10-16 14:59:38,5.389s,PASSED
+if (!(RuninSuite)),Chrome 118.0.0.0,,,2023-10-16 14:59:38,2023-10-16 14:59:38,0.001s,PASSED

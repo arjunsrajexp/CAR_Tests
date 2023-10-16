@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>First Navigation Item</name>
+   <tag></tag>
+   <elementGuidId>ec9926f8-9f27-4c40-803e-864528ea9dfa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[@class='menu-text'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.menu-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>055da260-587c-4e1e-8133-c2142cd4e9cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-text</value>
+      <webElementGuid>ed8b1ba0-6100-47c2-960c-1eaf47f55f5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home</value>
+      <webElementGuid>b9b7f0fc-f38d-4f2a-a741-34abddb28ac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app-l-page-wrap&quot;]/div[@class=&quot;app-l-sidebar active&quot;]/div[@class=&quot;app-l-sidebar__menu&quot;]/ul[1]/li[@class=&quot;active&quot;]/a[@class=&quot;active&quot;]/span[@class=&quot;menu-text&quot;]</value>
+      <webElementGuid>08b928d9-710a-4f16-a2ad-e3b00170f4bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/ul/li/a/span</value>
+      <webElementGuid>1494c364-f0f3-4531-9558-c096f9762953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Units'])[2]/preceding::span[1]</value>
+      <webElementGuid>9de3b8b7-8f90-4a72-9685-1bd84262952e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[2]/preceding::span[3]</value>
+      <webElementGuid>11b04265-2f2f-4554-b6b7-cdf6af178e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>2cfd1f4d-de0e-43cd-8182-16f85e3ad003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>12983511-dbd0-4d68-a6cd-1c941df76b9f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
