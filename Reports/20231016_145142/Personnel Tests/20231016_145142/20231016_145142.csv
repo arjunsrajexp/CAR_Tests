@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Personnel Tests,Chrome 118.0.0.0,,,2023-10-16 14:51:44,2023-10-16 14:53:03,1m - 18.372s,ERROR
+,,,,,,,
+Test Cases/Login and Logout/Login,Chrome 118.0.0.0,,,2023-10-16 14:51:45,2023-10-16 14:53:02,1m - 17.152s,ERROR
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-16 14:51:45,2023-10-16 14:51:47,2.396s,PASSED
+"navigateToUrl(""https://app.qa.ims.experionglobal.dev/login"")",Chrome 118.0.0.0,,,2023-10-16 14:51:47,2023-10-16 14:51:48,0.547s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Login with Google Button""))",Chrome 118.0.0.0,,,2023-10-16 14:51:48,2023-10-16 14:51:48,0.612s,PASSED
+"setText(findTestObject(""Object Repository/Google Authentication Page/Username Box""), ""superadmintestusercar@experionglobal.dev"")",Chrome 118.0.0.0,,,2023-10-16 14:51:48,2023-10-16 14:51:54,5.611s,PASSED
+"click(findTestObject(""Google Authentication Page/Next Button""))",Chrome 118.0.0.0,,,2023-10-16 14:51:54,2023-10-16 14:51:54,0.497s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Google Authentication Page/Password Box""), ""7326p5kcqg39Yf9y5Lk4nA=="")",Chrome 118.0.0.0,,,2023-10-16 14:51:54,2023-10-16 14:51:57,2.787s,PASSED
+"click(findTestObject(""Object Repository/Google Authentication Page/Next Button""))",Chrome 118.0.0.0,,,2023-10-16 14:51:57,2023-10-16 14:51:58,0.504s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/First Navigation Item""), ""Home"")",Chrome 118.0.0.0,,,2023-10-16 14:51:58,2023-10-16 14:52:32,33.905s,PASSED
+"if (verifyElementText(findTestObject(""Object Repository/Home Page/First Navigation Item""), ""Home""))",Chrome 118.0.0.0,,,2023-10-16 14:52:32,2023-10-16 14:53:02,30.101s,PASSED
+,,,,,,,
+Test Cases/Personnel/Verify Mandatory Fields - Personnel,Chrome 118.0.0.0,,,2023-10-16 14:53:02,2023-10-16 14:53:02,0.138s,ERROR
+if (!(isLoggedIn)),Chrome 118.0.0.0,,,2023-10-16 14:53:02,2023-10-16 14:53:02,0.003s,ERROR
+,,,,,,,
+Test Cases/Personnel/Create Personnel,Chrome 118.0.0.0,,,2023-10-16 14:53:02,2023-10-16 14:53:02,0.350s,ERROR
+if (!(isLoggedIn)),Chrome 118.0.0.0,,,2023-10-16 14:53:02,2023-10-16 14:53:02,0.002s,ERROR
+,,,,,,,
+Test Cases/Personnel/View and Edit Personnel,Chrome 118.0.0.0,,,2023-10-16 14:53:02,2023-10-16 14:53:03,0.453s,ERROR
+if (!(isLoggedIn)),Chrome 118.0.0.0,,,2023-10-16 14:53:03,2023-10-16 14:53:03,0.001s,ERROR

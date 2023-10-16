@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Personnel Tests" time="78.372" tests="4" failures="0" errors="4">
+   <testsuite name="Personnel Tests" tests="4" failures="0" errors="4" time="78.372" skipped="0" timestamp="2023-10-16 14:51:44" hostname="arjun.s - ARJUNSRAJ.experionglobal.local" id="Test Suites/Personnel Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\arjun.s\\git\\CAR_Tests\\Reports\\20231016_145142\\Personnel Tests\\20231016_145142"/>
+         <property name="logFiles" value="C:\\Users\\arjun.s\\git\\CAR_Tests\\Reports\\20231016_145142\\Personnel Tests\\20231016_145142\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arjun.s - ARJUNSRAJ.experionglobal.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="172.16.35.44"/>
+         <property name="sessionId" value="1d14069d688c23dc8f885adf4faa5fc8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login and Logout/Login" time="77.152" classname="Test Cases/Login and Logout/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login and Logout/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-16 14:51:45 - [TEST_CASE][ERROR] - Test Cases/Login and Logout/Login: Test Cases/Login and Logout/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:51:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-16 14:51:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-16 14:51:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-16 14:51:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-16 14:51:47 - [TEST_STEP][PASSED] - navigateToUrl("https://app.qa.ims.experionglobal.dev/login"): Navigate to 'https://app.qa.ims.experionglobal.dev/login' successfully
+
+2023-10-16 14:51:48 - [MESSAGE][PASSED] - Navigate to 'https://app.qa.ims.experionglobal.dev/login' successfully
+
+2023-10-16 14:51:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Login with Google Button")): Object: 'Object Repository/Home Page/Login with Google Button' is clicked on
+
+2023-10-16 14:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Login with Google Button' is clicked on
+
+2023-10-16 14:51:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Google Authentication Page/Username Box"), "superadmintestusercar@experionglobal.dev"): Text 'superadmintestusercar@experionglobal.dev' is set on object 'Object Repository/Google Authentication Page/Username Box'
+
+2023-10-16 14:51:54 - [MESSAGE][PASSED] - Text 'superadmintestusercar@experionglobal.dev' is set on object 'Object Repository/Google Authentication Page/Username Box'
+
+2023-10-16 14:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Google Authentication Page/Next Button")): Object: 'Object Repository/Google Authentication Page/Next Button' is clicked on
+
+2023-10-16 14:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Authentication Page/Next Button' is clicked on
+
+2023-10-16 14:51:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Google Authentication Page/Password Box"), "7326p5kcqg39Yf9y5Lk4nA=="): Text ****** has been set on object 'Object Repository/Google Authentication Page/Password Box'
+
+2023-10-16 14:51:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Google Authentication Page/Password Box'
+
+2023-10-16 14:51:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Google Authentication Page/Next Button")): Object: 'Object Repository/Google Authentication Page/Next Button' is clicked on
+
+2023-10-16 14:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Google Authentication Page/Next Button' is clicked on
+
+2023-10-16 14:51:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Home Page/First Navigation Item"), "Home"): Actual text and expected text of test object 'Object Repository/Home Page/First Navigation Item' are matched.
+
+2023-10-16 14:52:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/First Navigation Item' are matched.
+
+2023-10-16 14:52:32 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Object Repository/Home Page/First Navigation Item"), "Home")): null
+
+2023-10-16 14:53:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home Page/First Navigation Item' are matched.
+
+2023-10-16 14:53:02 - [TEST_STEP][ERROR] - isLoggedIn = true: Test Cases/Login and Logout/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:53:02 - [MESSAGE][ERROR] - Test Cases/Login and Logout/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-10-16 14:51:45 - [TEST_CASE][ERROR] - Test Cases/Login and Logout/Login: Test Cases/Login and Logout/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Personnel/Verify Mandatory Fields - Personnel" time="0.138" classname="Test Cases/Personnel/Verify Mandatory Fields - Personnel" status="ERROR">
+         <error type="ERROR" message="Test Cases/Personnel/Verify Mandatory Fields - Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Verify Mandatory Fields - Personnel.run(Verify Mandatory Fields - Personnel:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-16 14:53:02 - [TEST_CASE][ERROR] - Test Cases/Personnel/Verify Mandatory Fields - Personnel: Test Cases/Personnel/Verify Mandatory Fields - Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Verify Mandatory Fields - Personnel.run(Verify Mandatory Fields - Personnel:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:53:02 - [TEST_STEP][ERROR] - if (!(isLoggedIn)): Test Cases/Personnel/Verify Mandatory Fields - Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Verify Mandatory Fields - Personnel.run(Verify Mandatory Fields - Personnel:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:53:02 - [MESSAGE][ERROR] - Test Cases/Personnel/Verify Mandatory Fields - Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Verify Mandatory Fields - Personnel.run(Verify Mandatory Fields - Personnel:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-10-16 14:53:02 - [TEST_CASE][ERROR] - Test Cases/Personnel/Verify Mandatory Fields - Personnel: Test Cases/Personnel/Verify Mandatory Fields - Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Verify Mandatory Fields - Personnel.run(Verify Mandatory Fields - Personnel:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Personnel/Create Personnel" time="0.35" classname="Test Cases/Personnel/Create Personnel" status="ERROR">
+         <error type="ERROR" message="Test Cases/Personnel/Create Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Create Personnel.run(Create Personnel:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-16 14:53:02 - [TEST_CASE][ERROR] - Test Cases/Personnel/Create Personnel: Test Cases/Personnel/Create Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Create Personnel.run(Create Personnel:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:53:02 - [TEST_STEP][ERROR] - if (!(isLoggedIn)): Test Cases/Personnel/Create Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Create Personnel.run(Create Personnel:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:53:02 - [MESSAGE][ERROR] - Test Cases/Personnel/Create Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Create Personnel.run(Create Personnel:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-10-16 14:53:02 - [TEST_CASE][ERROR] - Test Cases/Personnel/Create Personnel: Test Cases/Personnel/Create Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Create Personnel.run(Create Personnel:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Personnel/View and Edit Personnel" time="0.453" classname="Test Cases/Personnel/View and Edit Personnel" status="ERROR">
+         <error type="ERROR" message="Test Cases/Personnel/View and Edit Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at View and Edit Personnel.run(View and Edit Personnel:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+"/>
+         <system-out><![CDATA[2023-10-16 14:53:02 - [TEST_CASE][ERROR] - Test Cases/Personnel/View and Edit Personnel: Test Cases/Personnel/View and Edit Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at View and Edit Personnel.run(View and Edit Personnel:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:53:03 - [TEST_STEP][ERROR] - if (!(isLoggedIn)): Test Cases/Personnel/View and Edit Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at View and Edit Personnel.run(View and Edit Personnel:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)
+
+
+2023-10-16 14:53:03 - [MESSAGE][ERROR] - Test Cases/Personnel/View and Edit Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at View and Edit Personnel.run(View and Edit Personnel:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-10-16 14:53:02 - [TEST_CASE][ERROR] - Test Cases/Personnel/View and Edit Personnel: Test Cases/Personnel/View and Edit Personnel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at View and Edit Personnel.run(View and Edit Personnel:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-16 14:51:44 - [TEST_SUITE][ERROR] - Personnel Tests: Test Cases/Login and Logout/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-10-16 14:51:44 - [TEST_SUITE][ERROR] - Personnel Tests: Test Cases/Login and Logout/Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: isLoggedIn for class: internal.GlobalVariable
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1697448102116.run(TempTestSuite1697448102116.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

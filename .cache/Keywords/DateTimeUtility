@@ -1,0 +1,422 @@
+{
+  "keywordFileContentHash": "95C9ECC94F119E5916831A43755C7A6F",
+  "keywordClasses": [
+    {
+      "name": "DateTimeUtility",
+      "keywordMethods": [
+        {
+          "name": "getCurrentDateTime",
+          "parameters": [
+            {
+              "name": "timeZoneId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dateTimeFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get current date time\r\n\t *\r\n\t * @param timeZoneId TimeZone Id. If the timeZoneId is null, it will use the local TimeZone\r\n\t * @param dateTimeFormat the date time format. If the dateTimeFormat is null, the default format set to \"dd-MM-yyyy hh:mm:ss a\"\r\n\t * @return the current date\r\n\t */"
+        },
+        {
+          "name": "getPreviousDateTime",
+          "parameters": [
+            {
+              "name": "noOfDays",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "timeZoneId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dateTimeFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get noOfDays days previous to current date\r\n\t *\r\n\t * @param noOfDays the days previous to current date\r\n\t * @param timeZoneId TimeZone Id. If the timeZoneId is null, it will use the local TimeZone\r\n\t * @param dateTimeFormat the date format. If the dateTimeFormat is null, the default returned date time format is \"dd-MM-yyyy hh:mm:ss a\"\r\n\t * @return the previous date\r\n\t */"
+        },
+        {
+          "name": "getFutureDateTime",
+          "parameters": [
+            {
+              "name": "noOfDays",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "timeZoneId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dateTimeFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get noOfDays days after the current date\r\n\t *\r\n\t * @param noOfDays the days after the current date\r\n\t * @param timeZoneId TimeZone Id. If the timeZoneId is null, it will use the local TimeZone\r\n\t * @param dateTimeFormat the date format. If the dateTimeFormat is null, the default format set to \"MM/dd/yyyy\"\r\n\t * @return the future date\r\n\t */"
+        },
+        {
+          "name": "setDefaultTimeZone",
+          "parameters": [
+            {
+              "name": "timeZoneId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Set the default TimeZone\r\n\t *\r\n\t * @param timeZoneId TimeZone Id. If the timeZoneId is null, it will use the local TimeZone\r\n\t */"
+        },
+        {
+          "name": "getDefaultTimeZone",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Get the default TimeZone\r\n\t *\r\n\t * @return the default TimeZone\r\n\t */"
+        },
+        {
+          "name": "formatStringDate",
+          "parameters": [
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "currentFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "newFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Format a string date\r\n\t *\r\n\t * @param value the date needs to reformat\r\n\t * @param currentFormat the current format of the string date\r\n\t * @param newFormat the expected format of the string date\r\n\t * @return the string date in new format\r\n\t */"
+        },
+        {
+          "name": "convertString2Date",
+          "parameters": [
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dateTimeFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Convert a string to date\r\n\t *\r\n\t * @param value the date string needs to convert\r\n\t * @param dateTimeFormat the format of the date string\r\n\t * @return the date\r\n\t */"
+        },
+        {
+          "name": "addDays",
+          "parameters": [
+            {
+              "name": "stringDate",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dateFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "amount",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Add days to a particular date\r\n\t *\r\n\t * @param stringDate the date needs to add more days\r\n\t * @param dateFormat the format of the date string\r\n\t * @param amount the number of days adding to the date\r\n\t * @return new date string\r\n\t */"
+        },
+        {
+          "name": "getCurrentDate",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Get current date\r\n\t *\r\n\t * @return current date\r\n\t */"
+        },
+        {
+          "name": "getCurrentMonth",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Get current month\r\n\t *\r\n\t * @return current month\r\n\t */"
+        },
+        {
+          "name": "getCurrentYear",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Get current year\r\n\t *\r\n\t * @return current year\r\n\t */"
+        },
+        {
+          "name": "getFutureTime",
+          "parameters": [
+            {
+              "name": "hrs",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "minute",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get future time\r\n\t *\r\n\t * @param hrs the hours adding to the current hour\r\n\t * @param minute the minutes adding to the current minute\r\n\t * @return the new time\r\n\t */"
+        },
+        {
+          "name": "getPastTime",
+          "parameters": [
+            {
+              "name": "hrs",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "minute",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get past time\r\n\t *\r\n\t * @param hrs the hours subtracting from the current hour\r\n\t * @param minute the minutes subtracting the current minute\r\n\t * @return the new time\r\n\t */"
+        },
+        {
+          "name": "getDuration",
+          "parameters": [
+            {
+              "name": "startTime",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "endTime",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get duration\r\n\t *\r\n\t * @param startTime the start time\r\n\t * @param endTime the end time\r\n\t * @return the duration\r\n\t */"
+        },
+        {
+          "name": "getDayOfWeek",
+          "parameters": [
+            {
+              "name": "date",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dateFormat",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get the day of the week\r\n\t *\r\n\t * @param date the date string\r\n\t * @param dateFormat the date format\r\n\t * @return the day of the week\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
