@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Visual Test Suite,,,,2023-10-18 12:37:15,2023-10-18 12:37:24,9.164s,FAILED
+,,,,,,,
+Test Cases/Visual Sample Test,,,,2023-10-18 12:37:22,2023-10-18 12:37:24,1.497s,FAILED
+"openBrowser("""")",,,,2023-10-18 12:37:22,2023-10-18 12:37:24,1.434s,FAILED

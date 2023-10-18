@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Visual Test Suite,Chrome 118.0.0.0,,,2023-10-18 12:39:34,2023-10-18 12:40:29,55.376s,PASSED
+,,,,,,,
+Test Cases/Visual Sample Test,Chrome 118.0.0.0,,,2023-10-18 12:39:35,2023-10-18 12:40:29,54.721s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-18 12:39:35,2023-10-18 12:39:39,3.790s,PASSED
+"navigateToUrl(""https://app.qa.ims.experionglobal.dev/login"")",Chrome 118.0.0.0,,,2023-10-18 12:39:39,2023-10-18 12:39:40,0.729s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Login with Google Button""))",Chrome 118.0.0.0,,,2023-10-18 12:39:40,2023-10-18 12:39:40,0.575s,PASSED
+"setText(findTestObject(""Object Repository/Google Authentication Page/Username Box""), ""superadmintestusercar@experionglobal.dev"")",Chrome 118.0.0.0,,,2023-10-18 12:39:40,2023-10-18 12:39:46,5.318s,PASSED
+"click(findTestObject(""Google Authentication Page/Next Button""))",Chrome 118.0.0.0,,,2023-10-18 12:39:46,2023-10-18 12:39:46,0.441s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Google Authentication Page/Password Box""), ""7326p5kcqg39Yf9y5Lk4nA=="")",Chrome 118.0.0.0,,,2023-10-18 12:39:46,2023-10-18 12:39:49,2.968s,PASSED
+"click(findTestObject(""Object Repository/Google Authentication Page/Next Button""))",Chrome 118.0.0.0,,,2023-10-18 12:39:49,2023-10-18 12:39:50,0.519s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Home Page/First Navigation Item""), ""Home"")",Chrome 118.0.0.0,,,2023-10-18 12:39:50,2023-10-18 12:39:55,5.137s,PASSED
+"if (verifyElementText(findTestObject(""Object Repository/Home Page/First Navigation Item""), ""Home""))",Chrome 118.0.0.0,,,2023-10-18 12:39:55,2023-10-18 12:40:25,30.193s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-18 12:40:25,2023-10-18 12:40:25,0.162s,PASSED
+"takeScreenshotAsCheckpoint(""HomePage"")",Chrome 118.0.0.0,,,2023-10-18 12:40:25,2023-10-18 12:40:29,4.417s,PASSED
